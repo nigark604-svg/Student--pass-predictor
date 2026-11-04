@@ -1,19 +1,19 @@
+Student Pass/Fail Predictor
 
-# Student Pass/Fail Predictor
+## Summary
 
-## About the Project
+This project predicts whether a student will pass or fail based on the number of hours they study. It uses Logistic Regression built from scratch in Python to calculate the probability of passing.
 
-The Student Pass/Fail Predictor is a simple AI project that predicts whether a student will PASS or FAIL based on the number of hours they study.
+## Background
 
-This project is built using Python and Logistic Regression from scratch without using any machine learning libraries.
+Many students want to understand how their study time can affect their academic performance. This project demonstrates how Artificial Intelligence can use study hours to make a simple prediction.
 
-## How It Works
+## How is it used?
 
-1. The model is trained using student study hours and pass/fail data.
-2. Logistic Regression learns the relationship between study hours and student results.
-3. The Sigmoid function converts the model's output into a probability between 0 and 1.
-4. If the probability is greater than 0.5, the student is predicted to PASS.
-5. Otherwise, the student is predicted to FAIL.
+1. The model is trained using sample student study hours and pass/fail data.
+2. Logistic Regression learns patterns from the training data.
+3. The Sigmoid function calculates the probability of passing.
+4. The model predicts PASS if the probability is greater than 0.5; otherwise, it predicts FAIL.
 
 ## Technologies Used
 
@@ -21,41 +21,33 @@ This project is built using Python and Logistic Regression from scratch without 
 - Logistic Regression
 - Sigmoid Function
 - Gradient Descent
-- GitHub
 
 ## How to Run
 
-Make sure Python is installed on your computer.
-
-Run the following command in your terminal:
+Run the following command:
 
 ```bash
 python main.py
 ```
 
-## Example Output
-
-```text
-Trained model... w = 1.42, b = -7.52
-
-2 hours studied -> 5.8% chance -> FAIL
-5 hours studied -> 38.5% chance -> FAIL
-7 hours studied -> 77.2% chance -> PASS
-9 hours studied -> 94.8% chance -> PASS
-```
-
 ## What I Learned
 
-- How Logistic Regression works
-- How the Sigmoid function converts numbers into probabilities
-- How Gradient Descent trains a model
-- How to build a simple AI model from scratch
-- How to create and manage a project using GitHub
+- How Logistic Regression works.
+- How the Sigmoid function calculates probabilities.
+- How Gradient Descent trains a model.
+- How to build a basic AI model using Python.
+- How to publish a project on GitHub.
 
-## Project Goal
+## Challenges
 
-This project was created as part of the Building AI course to understand the basic concepts of Artificial Intelligence and Machine Learning.
+This is a simple educational model trained on sample data. Real student performance depends on many factors besides study hours, so predictions may not always be accurate.
 
-## Project By
+## What Next?
 
-Building AI - Final Project
+The project could be improved by using more student data and including additional factors such as attendance, practice hours, and previous academic performance.
+
+## Acknowledgments
+
+This project was created as part of the Building AI course.
+
+

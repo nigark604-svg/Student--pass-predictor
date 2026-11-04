@@ -1,20 +1,21 @@
-##  Student Pass/Fail Predictor
-Student Pass/Fail Predictor
+
+
+# Student Pass/Fail Predictor
 
 ## Summary
 
-This project predicts whether a student will pass or fail based on the number of hours they study. It uses Logistic Regression built from scratch in Python to calculate the probability of passing.
+This project predicts whether a student will PASS or FAIL based on the number of hours they study. It uses Logistic Regression built from scratch in Python to calculate the probability of passing.
 
 ## Background
 
-Many students want to understand how their study time can affect their academic performance. This project demonstrates how Artificial Intelligence can use study hours to make a simple prediction.
+Students often want to understand how their study time affects their academic performance. This project demonstrates how Artificial Intelligence can use study hours to make predictions.
 
-## How is it used?
+## How Is It Used?
 
 1. The model is trained using sample student study hours and pass/fail data.
 2. Logistic Regression learns patterns from the training data.
 3. The Sigmoid function calculates the probability of passing.
-4. The model predicts PASS if the probability is greater than 0.5; otherwise, it predicts FAIL.
+4. If the probability is greater than 0.5, the prediction is PASS; otherwise, it is FAIL.
 
 ## Technologies Used
 
@@ -25,7 +26,7 @@ Many students want to understand how their study time can affect their academic 
 
 ## How to Run
 
-Run the following command:
+Run this command in the terminal:
 
 ```bash
 python main.py
@@ -50,5 +51,3 @@ The project could be improved by using more student data and including additiona
 ## Acknowledgments
 
 This project was created as part of the Building AI course.
-
-
